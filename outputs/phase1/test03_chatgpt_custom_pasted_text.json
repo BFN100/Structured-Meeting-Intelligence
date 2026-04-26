@@ -1,0 +1,100 @@
+{
+"summary": "The team discussed building a restaurant app where customers vote on menu items to refine offerings over time. Key areas included voting simplicity, authentication approach, and a dual-interface system for customers and staff. Data tracking and analytics were emphasized to support decision-making and inventory optimization. UX simplicity and mobile performance were highlighted as critical. Sarah will consolidate requirements for the next session.",
+"key_points": [
+{
+"topic": "App Concept",
+"details": [
+"Customers vote or rate menu items",
+"Menu evolves based on popularity",
+"Objective is to optimize offerings and reduce waste"
+]
+},
+{
+"topic": "Voting System",
+"details": [
+"Must be simple and quick (1–2 taps)",
+"Options discussed: thumbs up/down, star ratings, reactions",
+"Preference for visual and intuitive interaction"
+]
+},
+{
+"topic": "Authentication",
+"details": [
+"Debate between anonymous vs authenticated voting",
+"Anonymous voting risks unreliable data",
+"Lightweight login (Google/Apple) suggested as balance"
+]
+},
+{
+"topic": "User Interface",
+"details": [
+"Customer app sections: Home/About, Menu, Contact, Location",
+"UX must be clean, fast, and mobile-friendly",
+"Encourage voting through subtle prompts"
+]
+},
+{
+"topic": "System Architecture",
+"details": [
+"Dual interface: customer-facing app and staff dashboard",
+"Customers see menu and ratings only",
+"Staff access ingredients, inventory, and analytics",
+"Ingredient visibility restricted to staff"
+]
+},
+{
+"topic": "Data & Analytics",
+"details": [
+"Track voting trends over time",
+"Identify top-rated and low-performing dishes",
+"Potential alerts for underperforming items",
+"Strong data tracking required from the beginning"
+]
+},
+{
+"topic": "Inventory Optimization",
+"details": [
+"Link dish popularity to ingredient usage",
+"Support stock level recommendations",
+"Requires backend tracking of ingredients per dish"
+]
+},
+{
+"topic": "Technical Considerations",
+"details": [
+"Backend must support scalability",
+"Future phases may include notifications"
+]
+}
+],
+"decisions": [
+"Adopt a simple and quick voting system",
+"Use lightweight authentication (e.g., Google/Apple sign-in)",
+"Implement a dual-interface system (customer and staff)",
+"Restrict ingredient visibility to staff only",
+"Focus on analytics for decision-making",
+"Ensure strong data tracking from the start",
+"Design for scalability"
+],
+"action_items": [
+{
+"task": "Consolidate discussion into initial product requirements",
+"owner": "Sarah",
+"priority": "High"
+}
+],
+"open_questions": [
+{
+"question": "Which specific voting method will be implemented (stars, reactions, thumbs up/down)?"
+},
+{
+"question": "Should voting be anonymous or require authentication in the final version?"
+},
+{
+"question": "How will ingredient tracking be structured in the backend system?"
+},
+{
+"question": "What is the best strategy to encourage user participation in voting?"
+}
+]
+}
