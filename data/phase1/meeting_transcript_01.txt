@@ -1,0 +1,109 @@
+Meeting Transcript — Brainstorm: Restaurant Voting Menu App
+Meeting Title: Brainstorm – Interactive Menu App for Restaurant
+ Date: March 12, 2026
+ Time: 10:00 AM – 10:48 AM
+ Participants:
+Sarah (Product Manager)
+Daniel (Engineering Manager)
+Priya (Data & Analytics Manager)
+Lucas (UX/UI Manager)
+
+[10:00 AM] Sarah:
+ Alright, thanks everyone for joining. So, we have this new stakeholder — they own a restaurant and want to build an app where customers can basically vote on menu items. The idea is to refine the menu over time based on popularity.
+[10:01 AM] Daniel:
+ Interesting. So this is like a feedback loop directly tied to the menu itself?
+[10:02 AM] Sarah:
+ Exactly. Customers would rate or vote on dishes, and over time, the restaurant keeps only the highest-performing ones.
+[10:03 AM] Priya:
+ That’s actually great from a data perspective. If we track ratings over time, we can identify trends, seasonal preferences, even predict demand.
+[10:04 AM] Lucas:
+ From a UX standpoint, we need to keep it super simple. If voting takes more than one or two taps, people won’t do it.
+
+[10:06 AM] Sarah:
+ Right. So maybe a simple thumbs up/down or a 1–5 rating system?
+[10:06 AM] Lucas:
+ I’d lean toward something visual — like stars or even quick reactions.
+[10:07 AM] Daniel:
+ We also need to think about authentication. Do users need accounts, or can they vote anonymously?
+[10:08 AM] Priya:
+ Anonymous might be easier initially, but then we risk spam or unreliable data.
+
+[10:10 AM] Sarah:
+ Good point. Maybe lightweight login? Like Google or Apple sign-in?
+[10:11 AM] Daniel:
+ Yeah, that would work. Keeps friction low but still gives us some structure.
+
+[10:13 AM] Priya:
+ Another thing — if the goal is to optimize inventory, we should connect votes with ingredient usage.
+[10:14 AM] Sarah:
+ Can you expand on that?
+[10:14 AM] Priya:
+ Sure. If a dish gets high ratings, we can assume higher demand, which means more frequent ingredient purchases. Over time, we could even suggest optimal stock levels.
+[10:15 AM] Daniel:
+ That would require a backend system tracking ingredients per dish.
+
+[10:17 AM] Sarah:
+ Yes, and that brings us to an important constraint: customers should NOT see the ingredients. That’s internal only.
+[10:18 AM] Lucas:
+ So we basically have two views — customer-facing and internal dashboard?
+[10:18 AM] Daniel:
+ Exactly. Customer sees menu, ratings, basic info. Staff sees ingredients, inventory, analytics.
+
+[10:20 AM] Lucas:
+ For the customer app, I’d suggest:
+Home/About
+Menu
+Contact
+Location (with map)
+[10:21 AM] Sarah:
+ Yes, that matches what the stakeholder requested.
+
+[10:23 AM] Priya:
+ For analytics, we should include:
+Top-rated dishes
+Lowest-performing dishes
+Voting trends over time
+[10:24 AM] Daniel:
+ And maybe alerts — like “this dish is consistently underperforming.”
+
+[10:26 AM] Sarah:
+ That’s great. It directly supports their goal of reducing waste.
+[10:27 AM] Priya:
+ Exactly. Less popular dishes = less stock = cost savings.
+
+[10:30 AM] Lucas:
+ One more thing — how do we encourage users to vote?
+[10:31 AM] Sarah:
+ Good question.
+[10:31 AM] Lucas:
+ Maybe subtle prompts after viewing a dish or after visiting the restaurant.
+[10:32 AM] Daniel:
+ We could also add optional notifications, but that might be phase two.
+
+[10:35 AM] Sarah:
+ Alright, let’s summarize direction:
+Simple voting system
+Lightweight authentication
+Dual interface (customer vs staff)
+Ingredient visibility restricted to staff
+Focus on analytics for decision-making
+
+[10:38 AM] Priya:
+ And strong data tracking from day one.
+[10:39 AM] Daniel:
+ Plus scalable backend, in case they expand.
+
+[10:41 AM] Lucas:
+ And clean, fast UX — especially for mobile.
+
+[10:45 AM] Sarah:
+ Perfect. I’ll consolidate this into initial requirements and we can refine in the next session.
+[10:46 AM] Daniel:
+ Sounds good.
+[10:46 AM] Priya:
+ Thanks everyone.
+[10:47 AM] Lucas:
+ Great session.
+
+[10:48 AM] Meeting Ended
+
