@@ -20,8 +20,8 @@ The goal was to validate which AI model (ChatGPT vs. Gemini) and which input met
 Following the comparative analysis mediated by NotebookLM, I have standardized the use of **ChatGPT via direct input (copy-paste)** for the technical analysis phase. **Gemini** will serve as support for document organization and continuous learning, while **NotebookLM** will remain the tool for quality validation.
 
 ### 6. Lessons Learned:
-* ****Prompt Sensitivity:** I identified that over-structuring the v2 prompt reduced the AI's sensitivity in identifying secondary Action Items.
-* ****Next Steps:** Further testing and prompt optimization will be conducted in Phase 2 before proceeding with API integration.
+* **Prompt Sensitivity:** I identified that over-structuring the v2 prompt reduced the AI's sensitivity in identifying secondary Action Items.
+* **Next Steps:** Further testing and prompt optimization will be conducted in Phase 2 before proceeding with API integration.
 
 ---
 
